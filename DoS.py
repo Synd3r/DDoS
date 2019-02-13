@@ -40,10 +40,10 @@ port = input("Port       : ")
 os.system("clear")
 os.system("figlet Attack Starting")
 os.system("clear")
-print "[                    ] 0% "
+print "[                    ] 0%"
 time.sleep(1)
 os.system("clear")
-print "[==                   ] 10%"
+print "[==                  ] 10%"
 time.sleep(1)
 os.system("clear")
 print "[====                ] 20%"
@@ -55,7 +55,7 @@ os.system("clear")
 print "[========            ] 40%"
 time.sleep(1)
 os.system("clear")
-print "[==========          ] 50% "
+print "[==========          ] 50%"
 time.sleep(1)
 os.system("clear")
 print "[============        ] 60%"
