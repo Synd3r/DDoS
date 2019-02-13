@@ -1,6 +1,6 @@
 # THIS IS NOT MY CODE
-# I JUST COPIED IT FROM Ha3MrX
-# BUT I REMOVED SOME STUFF TO MAKE IT EASIER FOR MY PERSONAL USE
+# ALL CREDIT GOES TO Ha3MrX
+# BUT I CHANGED SOME STUFF TO MAKE IT EASIER FOR MY PERSONAL USE
 
 
 
@@ -41,19 +41,37 @@ os.system("clear")
 os.system("figlet Attack Starting")
 os.system("clear")
 print "[                    ] 0% "
-time.sleep(5)
+time.sleep(1)
 os.system("clear")
-print "[=====               ] 25%"
-time.sleep(5)
+print "[==                   ] 10%"
+time.sleep(1)
 os.system("clear")
-print "[==========          ] 50%"
-time.sleep(5)
+print "[====                ] 20%"
+time.sleep(1)
 os.system("clear")
-print "[===============     ] 75%"
-time.sleep(5)
+print "[======              ] 30%"
+time.sleep(1)
+os.system("clear")
+print "[========            ] 40%"
+time.sleep(1)
+os.system("clear")
+print "[==========          ] 50% "
+time.sleep(1)
+os.system("clear")
+print "[============        ] 60%"
+time.sleep(1)
+os.system("clear")
+print "[==============      ] 70%"
+time.sleep(1)
+os.system("clear")
+print "[================    ] 80%"
+time.sleep(1)
+os.system("clear")
+print "[==================  ] 90%"
+time.sleep(1)
 os.system("clear")
 print "[====================] 100%"
-time.sleep(3)
+time.sleep(1)
 os.system("clear")
 sent = 0
 while True:
