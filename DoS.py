@@ -26,6 +26,7 @@ bytes = random._urandom(1490)
 
 os.system("clear")
 os.system("figlet DDos Attack")
+os.system("clear")
 print
 print " ____  ____                 _   _   _             _"
 print "|  _ \\|  _ \\  ___  ___     / \\ | |_| |_ __ _  ___| | __"
@@ -36,6 +37,8 @@ print
 ip = raw_input("IP Target : ")
 port = input("Port       : ")
 
+os.system("clear")
+os.system("figlet Attack Starting")
 os.system("clear")
 print "[                    ] 0% "
 time.sleep(5)
