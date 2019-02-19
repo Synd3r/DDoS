@@ -44,31 +44,31 @@ print "[                    ] 00%"
 time.sleep(1)
 os.system("clear")
 print "[==                  ] 10%"
-time.sleep(1)
+time.sleep(0.2)
 os.system("clear")
 print "[====                ] 20%"
-time.sleep(1)
+time.sleep(0.2)
 os.system("clear")
 print "[======              ] 30%"
-time.sleep(1)
+time.sleep(0.2)
 os.system("clear")
 print "[========            ] 40%"
-time.sleep(1)
+time.sleep(0.7)
 os.system("clear")
 print "[==========          ] 50%"
-time.sleep(1)
+time.sleep(0.2)
 os.system("clear")
 print "[============        ] 60%"
-time.sleep(1)
+time.sleep(0.2)
 os.system("clear")
 print "[==============      ] 70%"
-time.sleep(1)
+time.sleep(0.2)
 os.system("clear")
 print "[================    ] 80%"
-time.sleep(1)
+time.sleep(0.2)
 os.system("clear")
 print "[==================  ] 90%"
-time.sleep(1)
+time.sleep(0.2)
 os.system("clear")
 print "[====================] 100%"
 time.sleep(1)
