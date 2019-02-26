@@ -10,6 +10,7 @@ import os
 import time
 import socket
 import random
+import subprocess
 #Code Time
 from datetime import datetime
 now = datetime.now()
@@ -18,6 +19,8 @@ minute = now.minute
 day = now.day
 month = now.month
 year = now.year
+
+subprocess.call('/Applications/iTerm')
 
 ##############
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
