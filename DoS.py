@@ -20,8 +20,9 @@ day = now.day
 month = now.month
 year = now.year
 
-subprocess.call('/Applications/iTerm')
-
+subprocess.call(
+    ["/usr/bin/open", "-W", "-n", "-a", "/Applications/iTerm.app"]
+    )
 ##############
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
