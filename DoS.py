@@ -10,7 +10,7 @@ import os
 import time
 import socket
 import random
-import subprocess
+
 #Code Time
 from datetime import datetime
 now = datetime.now()
@@ -20,9 +20,7 @@ day = now.day
 month = now.month
 year = now.year
 
-subprocess.call(
-    ["/usr/bin/open", "-W", "-n", "-a", "/Applications/iTerm.app"]
-    )
+
 ##############
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
