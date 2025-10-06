@@ -1,6 +1,6 @@
 # THIS IS NOT MY CODE
 # ALL CREDIT GOES TO Ha3MrX
-# BUT I CHANGED SOME STUFF TO MAKE IT EASIER FOR MY PERSONAL USE
+# BUT I CHANGED SOME STUFF TO MAKE IT EASIER TO UNDERSTAND
 
 
 
@@ -37,7 +37,7 @@ print ("| |_| | |_| | (_) \\__ \\  / ___ \\ |_| || (_| | (__|   <")
 print ("|____/|____/ \\___/|___/ /_/   \\_\\__|\\__\\__,_|\\___|_|\\_\\")
 print
 ip = raw_input("IP Target : ")
-port = input("Port       : ")
+##port = input("Port       : ")
 
 os.system("clear")
 os.system("figlet Attack Starting")
